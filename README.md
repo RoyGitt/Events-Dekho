@@ -2,7 +2,12 @@ This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next
 
 ## Getting Started
 
-First, run the development server:
+## As we have used Firebase Realtime Database and MongoDb, you need to do the following :
+
+- Replace the connection string for Firebase Realtime Database in the helper.js file.
+- Replace the constants for username and password in case of Mongodb in the db-util.js.
+
+Assumming you have completed the above mentioned tasks, run the development server:
 
 ```bash
 npm run dev
