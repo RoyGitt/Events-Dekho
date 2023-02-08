@@ -1,0 +1,28 @@
+.filter {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #fff;
+  border-radius: 0.5rem;
+  box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.1);
+  width: max-content;
+  margin: 0 auto;
+  margin-top: 4rem;
+  padding: 1rem 2rem;
+}
+.filter__control {
+  margin-right: 2rem;
+}
+.filter__control label {
+  margin-right: 1rem;
+  font-size: 2rem;
+}
+.filter__control select {
+  font-size: 2rem;
+  border: 2px solid #ccc;
+  border-radius: 0.3rem;
+}
+
+.filter button {
+  margin: 0;
+}

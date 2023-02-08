@@ -1,0 +1,11 @@
+.text {
+  display: block;
+  text-align: center;
+  background: #b7f4d8;
+  color: #333;
+  font-size: 2.5rem;
+  width: 40%;
+  padding: 1rem;
+  margin: 0 auto;
+  margin-top: 4rem;
+}

@@ -1,0 +1,44 @@
+.event-detail__header {
+  background-image: linear-gradient(to top, #0ba360 0%, #3cba92 100%);
+  height: 35vh;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 3.5rem;
+}
+.event-detail__details {
+  background-color: #fff;
+  color: #333;
+  padding: 4rem;
+  box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.1);
+  width: max-content;
+  border-radius: 1rem;
+  display: flex;
+  align-items: center;
+  margin: 0 auto;
+  margin-top: -5rem;
+}
+.event-detail__image {
+  width: 30rem;
+  height: 30rem;
+  object-fit: cover;
+  border-radius: 50%;
+  margin-right: 4rem;
+  border: 5px solid #0ba360;
+}
+.event-detail__time,
+.event-detail__address {
+  display: flex;
+  align-items: center;
+  margin-bottom: 2rem;
+  font-size: 2rem;
+}
+
+.event-detail__description {
+  text-align: justify;
+  font-size: 2rem;
+  width: 70rem;
+  margin: 0 auto;
+  margin-top: 4rem;
+}

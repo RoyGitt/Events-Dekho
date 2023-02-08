@@ -1,0 +1,73 @@
+.comments button {
+  margin: 5rem auto;
+  background-color: transparent;
+  color: #28b896;
+  border: 2px solid #28b896;
+}
+
+.comments__form {
+  display: flex;
+  flex-direction: column;
+  width: 60rem;
+  margin: 8rem auto;
+  font-size: 1.6rem;
+  background-color: #28b896;
+  border-radius: 1rem;
+  padding: 1.5rem;
+}
+
+.comments__form button {
+  margin: 0 auto;
+  background-color: #fff;
+  color: #28b896;
+}
+
+.comments__form__controls {
+  display: flex;
+  justify-content: space-between;
+}
+.comments__form__controls > div:first-child {
+  margin-right: 4rem;
+}
+.comments__form__control input {
+  width: 96%;
+  margin-top: 1rem;
+}
+
+.comments__form label {
+  color: #fff;
+  font-weight: 500;
+  font-size: 1.6rem;
+  margin-bottom: 1rem;
+}
+
+.comments__form textarea,
+.comments__form input {
+  margin-bottom: 2rem;
+  resize: none;
+  font-size: 2rem;
+  padding: 0.5rem;
+  background-color: #ccfaef;
+  border-radius: 5px;
+  border: none;
+  outline: none;
+}
+.user__comment {
+  display: flex;
+  flex-direction: column;
+  border-bottom: 2px solid #ccc;
+  padding: 1rem;
+  width: 60rem;
+  margin: 0 auto;
+  margin-bottom: 2rem;
+  margin-top: 5rem;
+}
+
+.user__comment div:last-child {
+  margin-left: auto;
+  font-style: italic;
+}
+
+.loading-state {
+  text-align: center;
+}

@@ -1,0 +1,10 @@
+.notification {
+  position: fixed;
+  bottom: 0;
+  width: 100vw;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding: 2rem;
+  color: #fff;
+}
