@@ -6,6 +6,7 @@
   border-radius: 0.5rem;
   box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.1);
   width: max-content;
+  max-width: 95%;
   margin: 0 auto;
   margin-top: 4rem;
   padding: 1rem 2rem;
@@ -25,4 +26,20 @@
 
 .filter button {
   margin: 0;
+}
+
+@media screen and (max-width: 425px) {
+  .filter {
+    width: 42.5rem;
+  }
+}
+@media screen and (max-width: 375px) {
+  .filter {
+    width: 37.5rem;
+  }
+}
+@media screen and (max-width: 320px) {
+  .filter {
+    width: 32rem;
+  }
 }

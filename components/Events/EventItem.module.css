@@ -2,6 +2,7 @@
   display: flex;
   background-color: #fff;
   width: 90rem;
+  max-width: 95%;
   height: 30rem;
   margin: 5rem auto;
   border-radius: 1rem;
@@ -22,7 +23,7 @@
   margin-right: 4rem;
 }
 .event-item__heading {
-  font-size: 2.5rem;
+  font-size: 2.3rem;
   font-weight: 500;
   text-transform: capitalize;
   margin-bottom: 4rem;
@@ -40,4 +41,17 @@
 }
 .event-item__address {
   margin-bottom: 3rem;
+}
+
+@media screen and (max-width: 610px) {
+  .event-item {
+    flex-direction: column;
+    height: max-content;
+  }
+  .event-item img {
+    width: 100%;
+    height: 50rem;
+    object-fit: cover;
+    margin-right: 4rem;
+  }
 }

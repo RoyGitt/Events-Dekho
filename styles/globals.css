@@ -15,3 +15,8 @@ body {
   background-color: #b7f4d830;
   box-sizing: border-box;
 }
+@media screen and (max-width: 754px) {
+  html {
+    font-size: 50%;
+  }
+}

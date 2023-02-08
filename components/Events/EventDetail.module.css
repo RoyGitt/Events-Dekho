@@ -40,5 +40,33 @@
   font-size: 2rem;
   width: 70rem;
   margin: 0 auto;
+  max-width: 95%;
   margin-top: 4rem;
+}
+@media screen and (max-width: 1024px) {
+  .event-detail__header {
+    font-size: 2.5rem;
+  }
+  .event-detail__details {
+    max-width: 80%;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .event-detail__details {
+    flex-direction: column;
+  }
+  .event-detail__image {
+    margin-right: 0rem;
+    margin-bottom: 3rem;
+  }
+  .event-detail__header {
+    text-align: center;
+  }
+}
+@media screen and (max-width: 320px) {
+  .event-detail__details {
+    flex-direction: column;
+    width: 30rem;
+  }
 }
